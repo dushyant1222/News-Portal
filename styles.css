@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#n1img
+{
+    width: 750px;
+    height: 400px;
+}
+#sme{
+    color: rgb(70, 189, 6);
+}
+h5{
+    
+    font-size: 100%;
+}
+#n2img
+{
+    width: 750px;
+    height: 400px;
+}
+#modi
+{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+#harvard
+{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+#infosys
+{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+  .search-container {
+    display: flex;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    margin: 1px;
+  }
+  
+  #searchButton {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    padding: 0px;
+    margin: 1px;
+  }
+  
+  #searchButton:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
